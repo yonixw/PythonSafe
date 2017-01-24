@@ -3,6 +3,9 @@
 SERVER_PORT = 8000
 GUI_SEPERATOR = '\\'
 
+# TODO: Add prefix for safe and unsafe folders (they will lock unlock, cant open file from browser!)
+#       so no need for share path (like \\server\share)
+
 # Strings
 # =====================================================
 HELP_MESSAGE = """

@@ -11,6 +11,7 @@ class mySafeHandler(BaseHTTPRequestHandler):
 
     def do_GET(self):
         # Send help message for usage.
+        #TODO: On /help. main site is for manager\browser
 
         self.send_response(200)
         self.send_header('Content-type', 'text/html')
